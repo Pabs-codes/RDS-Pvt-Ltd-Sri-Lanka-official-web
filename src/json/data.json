@@ -8,8 +8,8 @@
       "imageUrl": "./media/i-beam.jpg",
       "size2": "",
       "details": "Precision-engineered I-beam made from top-grade steel, ensuring outstanding durability and strength",
-      "details2": "Country: China",
-      "moreInfo": "lll ldldf dkjfjdfkj"
+      "details2": "Country: China"
+     
     },
     {
       "_id": "abc123",
@@ -19,8 +19,8 @@
       "imageUrl": "./media/H-beam.png",
       "size2": "",
       "details": "High-quality H-beam crafted from premium steel, offering exceptional durability and strength.",
-      "details2": "Country: China",
-      "moreInfo": "lll ldldf dkjfjdfkj"
+      "details2": "Country: China"
+      
     },
     {
       "_id": "abc123",
