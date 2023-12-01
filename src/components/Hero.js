@@ -19,7 +19,7 @@ const Hero = () => {
     <section className="hero section" id="home" style={{ position: 'relative', overflow: 'hidden' }}>
       {!videoLoaded && (
         <img
-          src="./media/01.jpg" // Replace with the path to your loading image
+          src="./media/bg-hero1.jpg" // Replace with the path to your loading image
           alt="Loading"
           style={{
             position: 'absolute',
