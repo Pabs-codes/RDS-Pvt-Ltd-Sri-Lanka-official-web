@@ -8,8 +8,8 @@
       "imageUrl": "./media/i-beam.jpg",
       "size2": "",
       "details": "Precision-engineered I-beam made from top-grade steel, ensuring outstanding durability and strength",
-      "details2": "Country: China",
-      "moreInfo": "lll ldldf dkjfjdfkj"
+      "details2": "Country: China"
+     
     },
     {
       "_id": "abc123",
@@ -19,8 +19,8 @@
       "imageUrl": "./media/H-beam.png",
       "size2": "",
       "details": "High-quality H-beam crafted from premium steel, offering exceptional durability and strength.",
-      "details2": "Country: China",
-      "moreInfo": "lll ldldf dkjfjdfkj"
+      "details2": "Country: China"
+      
     },
     {
       "_id": "abc123",
@@ -176,7 +176,7 @@
       "imageUrl": "./media/csheet.jpg",
       "size2": "",
       "details": "Roofing or cladding sheets with parallel ridges and grooves for strength.",
-      "details2": "Country: Brazil"
+      "details2": "Country: "
     },
     {
       "_id": "abc123",
@@ -186,7 +186,7 @@
       "imageUrl": "./media/rsheet.jpg",
       "size2": "",
       "details": "Large, flat materials (metal, plastic, fiberglass) used for roofing.",
-      "details2": "Country: France"
+      "details2": "Country:"
     },
     {
       "_id": "abc123",
@@ -196,7 +196,7 @@
       "imageUrl": "./media/iroof.png",
       "size2": "",
       "details": " incorporates innovative design or technology. It could involve specialized materials, techniques, or features to enhance durability, weather resistance, or aesthetics in roofing applications",
-      "details2": "Country: Australia"
+      "details2": "Country: "
     },
     {
       "_id": "abc123",
@@ -205,8 +205,8 @@
       "name": "Metal Cladding",
       "imageUrl": "./media/mcladding.jpg",
       "size2": "",
-      "details": "Special cake with a cladding sheets surprise inside, featuring metal panel accents.",
-      "details2": "Country: India"
+      "details": "",
+      "details2": "Country:"
     },
     {
       "_id": "abc123",
@@ -214,9 +214,9 @@
       "availability": "Available",
       "name": "Steel Plate",
       "imageUrl": "./media/splate.jpg",
-      "size2": "Expanded Metal",
-      "details": "Delightful pupcake with a special steel coating, inspired by steel plate designs.",
-      "details2": "Country: Canada"
+      "size2": "",
+      "details": "",
+      "details2": "Country: "
     },
     {
       "_id": "abc123",
@@ -224,9 +224,9 @@
       "availability": "Available",
       "name": "Perforated Sheet",
       "imageUrl": "./media/psheet.jpg",
-      "size2": "Sheet Metal",
-      "details": "Brownies with a crunchy cladding sheets topping, featuring perforated sheet elements.",
-      "details2": "Country: United Kingdom"
+      "size2": "",
+      "details": "",
+      "details2": "Country: "
     },
     {
       "_id": "abc123",
@@ -234,9 +234,9 @@
       "availability": "Available",
       "name": "Diamond Plate",
       "imageUrl": "./media/dplate.jpg",
-      "size2": "Checker Plate",
-      "details": "Cupcakes with a shiny cladding sheets decoration, inspired by diamond plate patterns.",
-      "details2": "Country: South Africa"
+      "size2": "",
+      "details": "",
+      "details2": "Country: "
     }
   ],
   "places": [
