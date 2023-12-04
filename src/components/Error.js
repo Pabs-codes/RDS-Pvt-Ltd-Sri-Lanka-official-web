@@ -26,6 +26,7 @@ const Error = () => {
     <div style={containerStyle}>
       <h1 style={headingStyle}>Website is under construction</h1>
       <p style={messageStyle}>Check back later for updates.</p>
+      <p style={messageStyle}>Contact - @Pabasara_Navod | 070 185 2706 </p>
     </div>
   );
 };
