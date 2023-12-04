@@ -192,12 +192,67 @@
       "_id": "abc123",
       "category": "Roofing_solutions",
       "availability": "Available",
-      "name": "I-Roof",
-      "imageUrl": "./media/iroof.png",
+      "name": "Aluminium Sheet",
+      "imageUrl": "./media/Asheet2.jpg",
       "size2": "",
-      "details": " incorporates innovative design or technology. It could involve specialized materials, techniques, or features to enhance durability, weather resistance, or aesthetics in roofing applications",
+      "details": "Lightweight and corrosion-resistant, an aluminum sheet is versatile and often employed in aerospace, automotive, and construction applications.",
       "details2": "Country: "
     },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Aluminium Chequered Plate",
+      "imageUrl": "./media/dplate.jpg",
+      "size2": "",
+      "details": " An aluminum plate with a raised pattern for enhanced slip resistance, ideal for flooring, stairs, and other applications requiring traction.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Galvanized Coil",
+      "imageUrl": "./media/gcoil.jpg",
+      "size2": "",
+      "details": "A steel coil coated with a layer of zinc for corrosion resistance, commonly used in the production of roofing materials and various structural components.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Curved Roofing",
+      "imageUrl": "./media/croof.jpg",
+      "size2": "",
+      "details": "Specially designed roofing material that can be bent or shaped to create a curved roof profile, adding a unique and aesthetically pleasing dimension to architectural designs.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Gutters & Accessories",
+      "imageUrl": "./media/gas.jpg",
+      "size2": "",
+      "details": " A system of channels and pipes designed to collect and divert rainwater from the roof, preventing water damage to the building. Accessories include downspouts, gutter guards, and connectors",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Purlin",
+      "imageUrl": "./media/purlin.jpg",
+      "size2": "",
+      "details": " A horizontal structural member in a roof, often made of steel or wood, supporting the roof covering and transferring loads to the main framework. Purlins provide additional strength and stability to the roof structure.",
+      "details2": "Country: "
+    },
+  
+
+
+
+
     {
       "_id": "abc123",
       "category": "Cladding_sheets",
@@ -205,17 +260,17 @@
       "name": "Metal Cladding",
       "imageUrl": "./media/mcladding.jpg",
       "size2": "",
-      "details": "",
+      "details": "A protective layer of metal, often aluminum or steel, applied to surfaces for aesthetic appeal, weather resistance, and additional structural support.",
       "details2": "Country:"
     },
     {
       "_id": "abc123",
       "category": "Cladding_sheets",
       "availability": "Available",
-      "name": "Steel Plate",
-      "imageUrl": "./media/splate.jpg",
+      "name": "Aluminium Foil",
+      "imageUrl": "./media/afoil.jpg",
       "size2": "",
-      "details": "",
+      "details": "A thin, pliable sheet of aluminum known for its excellent heat conductivity and barrier properties, commonly used for food packaging, insulation, and cooking.",
       "details2": "Country: "
     },
     {
@@ -225,17 +280,17 @@
       "name": "Perforated Sheet",
       "imageUrl": "./media/psheet.jpg",
       "size2": "",
-      "details": "",
+      "details": "Sheets of metal or other materials with punched holes or patterns, allowing for ventilation, filtration, or decorative applications in various industries.",
       "details2": "Country: "
     },
     {
       "_id": "abc123",
       "category": "Cladding_sheets",
       "availability": "Available",
-      "name": "Diamond Plate",
-      "imageUrl": "./media/dplate.jpg",
+      "name": "Wall Cladding",
+      "imageUrl": "./media/wcladding.jpg",
       "size2": "",
-      "details": "",
+      "details": "An exterior covering for walls, available in diverse materials like metal, wood, or composite, providing both decorative features and additional protection against the elements.",
       "details2": "Country: "
     }
   ],

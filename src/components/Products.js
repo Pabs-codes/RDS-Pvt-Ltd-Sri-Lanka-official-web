@@ -54,7 +54,7 @@ const Products = () => {
             data-filter=""
           >
             <h3 className="products__title">Roofing Solutions</h3>
-            <span className="products__stock">3 products</span>
+            <span className="products__stock">8 products</span>
             
           </li>
 
