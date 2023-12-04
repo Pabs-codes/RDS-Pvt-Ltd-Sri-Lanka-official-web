@@ -1,32 +1,12 @@
 import React from 'react';
+import './Error.css'; // Import your CSS file for styling
 
 const Error = () => {
-  const containerStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-    textAlign: 'center',
-    animation: 'fadeIn 2s ease-in-out', // Apply the animation directly in the style
-  };
-
-  const headingStyle = {
-    fontSize: '2rem',
-    color: '#333', // Adjust the color as needed
-    marginBottom: '10px',
-  };
-
-  const messageStyle = {
-    fontSize: '1rem',
-    color: '#555', // Adjust the color as needed
-  };
-
   return (
-    <div style={containerStyle}>
-      <h1 style={headingStyle}>Website is under construction</h1>
-      <p style={messageStyle}>Check back later for updates.</p>
-      <p style={messageStyle}>Contact - @Pabasara_Navod | 070 185 2706 </p>
+    <div className='error-container'>
+      <h1 className='error-heading'>Web is currently under construction</h1>
+      <p className='error-message'>Check back later for updates.</p>
+      <p className='error-message'>Contact - @Pabasara_Navod | +94 70 185 2706 </p>
     </div>
   );
 };
