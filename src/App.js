@@ -1,28 +1,28 @@
-// import Header from './components/Header';
-// import Hero from './components/Hero';
-// import Services from './components/Services';
-// import Products from './components/Products';
-// import Place from './components/Place';
-// import Projects from './components/Projects';
-// import Footer from './components/Footer';
-// import Contact from './components/Contact';
-import Error from './components/Error';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Products from './components/Products';
+import Place from './components/Place';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+// import Error from './components/Error';
 
 
 function App() {
   return <>
-       {/* <Header /> */}
+       <Header />
        <main className='main'>
-        {/* <Hero />
+        <Hero />
         <Services />
         <Products />
         <Place/>
         <Projects/>
-        <Contact/> */}
-        <Error/>
+        <Contact/>
+        {/* <Error/> */}
         
        </main>
-       {/* <Footer/> */}
+       <Footer/>
      </>
   ;
 }
