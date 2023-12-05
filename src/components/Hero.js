@@ -23,7 +23,7 @@ const Hero = () => {
 
      const inquireNow = () => {
        window.scrollTo({
-        top: 950,
+        top: 6350,
         behavior: 'smooth'
        })
      }
