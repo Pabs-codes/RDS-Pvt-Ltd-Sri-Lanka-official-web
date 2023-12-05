@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+ 
 
   /*========== Colors ==========*/
   --first-color: hsl(0, 88%, 62%);
@@ -98,6 +98,7 @@ button {
   max-width: 1024px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  padding: 20px;
 }
 
 .grid {
@@ -325,16 +326,6 @@ button {
   row-gap: 2.5rem;
 }
 
-/* .special__img__border {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 1rem;
-  transition: 0.4s;
-  border: 3px solid  #808080;
-  border-radius: 15px;
-  padding: 1.25rem;
-} */
-
 
 
 .zoomed-in {
@@ -369,6 +360,7 @@ button {
   font-size: var(--h2-font-size);
   margin-bottom: 0.25rem;
   font-weight: 700;
+  
 }
 /* end */
 
