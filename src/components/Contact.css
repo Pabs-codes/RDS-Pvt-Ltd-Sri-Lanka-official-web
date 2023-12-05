@@ -3,7 +3,7 @@
     padding: 40px 0;
   }
   
-  .container {
+  .container01 {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -41,4 +41,3 @@
   .contact-form button:hover {
     background-color: #0056b3;
   }
-  

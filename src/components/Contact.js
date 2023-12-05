@@ -8,7 +8,7 @@
 
 //   return (
 //     <section>
-//         <div className='container'>
+//         <div className='container01'>
 //             <h2 className='--text-center'>Contact</h2>
 //             <form 
 //              ref={form}
@@ -49,7 +49,7 @@ const SteelInquiryForm = () => {
 
   return (
     <section id="c-section" className='contact-section'>
-      <div className='container'>
+      <div className='container01'>
         <h2 className='contact-heading'>Fill your Inquiry </h2>
         <form
           ref={form}

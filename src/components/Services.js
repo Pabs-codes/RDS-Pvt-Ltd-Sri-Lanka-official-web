@@ -17,7 +17,7 @@ const Services = () => {
   };
 
   return (
-    <div className="products__container container" id="special">
+    <div className="special section container" id="special">
       <div className="special__container">
         <div className="special__box">
           <h2 className="section__title">Our Services</h2>

@@ -19,7 +19,7 @@ const Footer =  () => {
             <h2 className="footer__subtitle">Contact</h2>
             <p className="footer__information">
               +94 7777 51550    |  +94 772177729 <br />
-              info@rupasinghesteels.com
+              Notyet@gmail.com
             </p>
           </div>
           <div className="footer__data">
