@@ -1,0 +1,147 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0a0a0a;
+    padding: 20px 60px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    
+  } 
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+
+  /* .nav__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white; 
+    
+}
+
+
+
+.nav__logo h1 {
+    margin-left: 10px; 
+    color: whitesmoke; 
+    font-size: 15px;
+    font-family:cursive;
+    
+} */
+
+@keyframes shine {
+    0% {
+        text-shadow: 2px 2px 5px rgba(236, 1, 1, 0.8);
+    }
+    50% {
+        text-shadow: 4px 4px 10px rgba(135, 0, 0, 0.8);
+    }
+    100% {
+        text-shadow: 2px 2px 5px rgba(238, 97, 97, 0.8);
+    }
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav__logo h1 {
+    margin-left: 10px;
+    font-size: 15px;
+    color: inherit;
+    font-family:cursive;
+    animation: shine 5s infinite; /* Apply the animation */
+}
+
+
+
+
+  #navbar li a:hover,
+  #navbar li a.active {
+    color: whitesmoke;
+    text-shadow: 0 0 5px #e8e4d7;
+  }
+  
+  #navbar li a:hover::after,
+  #navbar li a.active::after {
+    content: "";
+    width: 60%;
+    height: 1px;
+    background: whitesmoke;
+    text-shadow: 0 0 5px #e8e4d7;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+  
+  #mobile {
+    display: none;
+  }
+  
+  #mobile i {
+    color: #fff;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 769px) {
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 70px;
+      right: -300px;
+      width: 300px;
+      height: 100vh;
+      background: #000000;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 40px 0 0 10px;
+      transition: 0.3s ease-in-out;
+      z-index: 1000;
+    }
+  
+    #navbar.active {
+      right: 0px;
+    }
+  
+    #navbar li {
+      margin-bottom: 25px;
+    }
+  
+    #mobile {
+      display: block;
+    }
+  
+    #mobile i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+  }
+

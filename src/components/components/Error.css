@@ -1,0 +1,55 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+    position: relative;
+  }
+  
+  .error-container:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, #fff, #00f, #0f0, #ff0, #f00, #fff) 1;
+    border-image-slice: 1;
+    animation: borderAnimation 5s linear infinite;
+  }
+  
+  .error-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes borderAnimation {
+    0%, 100% {
+      border-image-source: linear-gradient(45deg, #fff, #00f, #0f0, #ff0, #f00, #fff);
+      transform: rotate(60deg);
+    }
+    50% {
+      border-image-source: linear-gradient(45deg, #fff, #00f, #0f0, #ff0, #f00, #fff);
+      transform: rotate(70deg);
+    }
+  }
+  
